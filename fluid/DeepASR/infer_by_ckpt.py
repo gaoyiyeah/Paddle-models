@@ -96,7 +96,7 @@ def parse_args():
         '--trans_model',
         type=str,
         default='./graph/trans_model',
-        help="The path to vocabulary. (default: %(default)s)")
+        help="The path to transition model. (default: %(default)s)")
     parser.add_argument(
         '--vocabulary',
         type=str,
